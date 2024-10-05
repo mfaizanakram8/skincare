@@ -7,7 +7,7 @@ import OurProducts from '@/components/OurProducts'
 import WhyChooseUs from '@/components/WhyChooseUs'
 import Footer from '@/components/Footer'
 import Testimonials from '@/components/TestimonialsCards'
-// import Blog from '@/components/Blog'
+import Blog from '@/components/Blog'
 const page = () => {
   return (
     <div>
@@ -18,7 +18,7 @@ const page = () => {
       <OurProducts/>
       <WhyChooseUs/>
       <Testimonials/>
-      {/* <Blog/> */}
+      <Blog/>
       <Footer/>
     </div>
   )
