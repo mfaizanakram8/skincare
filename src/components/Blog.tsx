@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
-import aliImage from '@/components/Images/image1.png'
-import razaImage from '@/components/Images/image2.png'
+import aImage from '@/components/Images/blog2.png'
+import rImage from '@/components/Images/blog1.png'
 
 const Blog = () => {
   return (
@@ -18,7 +18,7 @@ const Blog = () => {
         {/* Article 1 */}
         <div className='flex flex-col w-80 sm:w-72 m-6 min-h-[500px] justify-between'>
           <Image
-            src={aliImage}
+            src={aImage}
             alt='Image of acne serum brands'
             height={300}
             width={400}
@@ -35,7 +35,7 @@ const Blog = () => {
         {/* Article 2 */}
         <div className='flex flex-col w-80 sm:w-72 m-6 min-h-[500px] justify-between'>
           <Image
-            src={razaImage}
+            src={rImage}
             alt='Image of vegan acne serum brands'
             height={300}
             width={400}
@@ -52,7 +52,7 @@ const Blog = () => {
         {/* Article 3 */}
         <div className='flex flex-col w-80 sm:w-72 m-6 min-h-[500px] justify-between'>
           <Image
-            src={aliImage}
+            src={aImage}
             alt='Image of daily skincare routine'
             height={300}
             width={400}
