@@ -4,10 +4,10 @@ import oImage from "@/components/images/image (2).png";
 
 const About = () => {
   return (
-    <div className="w-full h-auto lg:h-[600px] py-12 bg-gradient-to-r from-white via-light-beige to-dark-beige">
-      <div className="flex flex-col lg:flex-row items-center justify-between h-full bg-customBrown p-6 lg:p-10 rounded-lg">
+    <div className="w-full h-auto lg:h-[650px] py-10 bg-gradient-to-r from-white via-light-beige to-dark-beige">
+      <div className="flex flex-col lg:flex-row items-center justify-between h-auto lg:h-[600px] bg-customBrown p-6 lg:p-8 rounded-lg">
         {/* Left Section: Image */}
-        <div className="w-full lg:w-[35%] mt-8 lg:mt-28 lg:ml-16 flex justify-center lg:block">
+        <div className="w-full lg:w-[35%] mt-8 lg:mt-24 lg:ml-12 flex justify-center lg:block">
           <Image
             src={oImage}
             alt="Product Image"
@@ -18,7 +18,7 @@ const About = () => {
         </div>
 
         {/* Right Section: Content */}
-        <div className="w-full lg:w-[55%] mt-8 lg:mt-0 lg:pl-10 text-center lg:text-left px-4 lg:px-0">
+        <div className="w-full lg:w-[55%] mt-8 lg:mt-0 lg:pl-8 text-center lg:text-left px-4 lg:px-0">
           <h1 className="text-3xl md:text-5xl lg:text-6xl text-white font-bold mb-5">
             We always open for whoever wants to know about us
           </h1>
