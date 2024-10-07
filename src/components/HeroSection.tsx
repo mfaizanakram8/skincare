@@ -69,7 +69,7 @@ const HeroSection = () => {
       <div className="flex flex-col items-center w-full mt-20 p-4">
         <div className="flex flex-col items-center">
           <Image src={pImage} alt="Upper Line" className="w-[80%]" />
-          <div className="flex flex-wrap justify-center p-4 relative">
+          <div className="flex flex-wrap justify-center p relative">
             {/* Logos in a Row */}
             <div className="flex items-center mx-2 mb-4">
               <Image

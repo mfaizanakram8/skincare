@@ -66,8 +66,8 @@ const OurServices = () => {
             <Image src={xImage} alt="Signature Facial Icon" className='absolute inset-0 w-[32px] h-[32px] mx-auto mt-[19px]' />
           </div>
           <h3 className='text-xl sm:text-2xl font-semibold'>Signature Facial</h3>
-          <p className='mt-2 text-gray-600 text-sm sm:text-base'>Lorem ipsum dolor sit amet consectetur. Tortor morbi adipiscing ullamcorper.</p>
-          <button className='mt-4 text-customBrown'>Learn More</button>
+          <p className='mt-2 text-gray-600 text-sm sm:text-base'>Lorem ipsum dolor sit amet consectetur. Tortor morbi adipiscing ullamcorper .</p>
+          <button className='mt-12 text-customBrown'>Learn More</button>
         </div>
       </div>
     </div>
